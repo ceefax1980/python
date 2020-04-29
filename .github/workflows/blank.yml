@@ -1,0 +1,6 @@
+total = 0
+for number in range(5):
+	number = int(input("Enter next number:"))
+	total = total + number
+average = total/5.0
+print("The average is", average)
